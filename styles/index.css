@@ -1,0 +1,66 @@
+@import './reset.less';
+.box {
+  max-width: 640px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.sm_header {
+  height: 40px;
+  margin: 5px 0;
+}
+.sm_header > .sm_input {
+  width: 100%;
+  padding: 4px;
+}
+.sm_content {
+  flex: 1;
+}
+.sm_information {
+  padding: 10px;
+}
+.sm_information .sm_module {
+  width: 100%;
+  padding-bottom: 5px;
+}
+.sm_information .sm_module > .sm_img {
+  width: 100%;
+}
+.sm_information .sm_module > .sm_img > img {
+  width: 100%;
+  display: block;
+}
+.sm_information .sm_module > .sm_tal {
+  width: 49%;
+  margin-top: 10px;
+  float: left;
+  background-color: #fff;
+}
+.sm_information .sm_module > .sm_tal > .sm_imgmin {
+  width: 100%;
+}
+.sm_information .sm_module > .sm_tal > .sm_imgmin > img {
+  width: 100%;
+  display: block;
+}
+.sm_information .sm_module > .sm_tal > .sm_imgmin > .sm_desc {
+  color: #333;
+  font-size: 13px;
+  margin: 5px 0;
+}
+.sm_information .sm_module > .sm_tal > .sm_imgmin > .sm_price {
+  color: red;
+}
+.sm_information .sm_module > .sm_tal > .sm_button {
+  width: 80%;
+  display: block;
+  margin: 5px auto;
+}
+.sm_information .sm_module > .sm_tal:nth-of-type(even) {
+  margin-right: 2%;
+}
+.sm_footer {
+  height: 40px;
+}
